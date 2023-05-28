@@ -5,7 +5,7 @@ const Search = () => {
     <>
     <form className="hidden w-1/2 lg:flex items-center text-lg justify-between py-2 px-4 h-full rounded-xl">
      <input
-     className="w-full py-4 bg-transparent h-full border-b"
+     className="w-full p-4 bg-transparent h-full border-b"
       placeholder="Search Station or Music" />
 
      <button className="text-3xl">
