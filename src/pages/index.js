@@ -16,7 +16,7 @@ export default function Home() {
   return (
    <main className="flex flex-col items-center py-2">
     {/* <TopBanner/> */}
-    <div className="flex flex-wrap items-center justify-center gap-5 lg:gap-10 py-8 px-4 lg:px-52">
+    <div className="flex flex-wrap bg-[#232427] items-center justify-center gap-5 lg:gap-10 py-8 px-4 lg:px-52">
     {arr.map( item => (
       <RadioStationCard/>
       ))}
