@@ -1,10 +1,10 @@
 import React from 'react'
 import Image from "next/image"
 import logo from '../../../public/logo.png'
-import Search from "../Search/Search"
+  // import Search from "../Search/Search"
 import User from "../User/User"
 import Link from "next/link"
-import SearchMobile from "../Search/SearchMobile"
+// import SearchMobile from "../Search/SearchMobile"
 
 const Navbar = () => {
   return (
@@ -12,9 +12,9 @@ const Navbar = () => {
      <Link href={""}>
       <Image className="w-14" src={logo} alt="LOGO" /> 
      </Link>
-      <Search />
+      {/* <Search /> */}
       <div className="flex gap-2">
-      <SearchMobile/>
+      {/* <SearchMobile/> */}
       <User />
       </div>
     </div>

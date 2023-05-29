@@ -14,7 +14,7 @@ export default function Profile() {
     {user ?
       <div className="flex items-center gap-5 py-2">
         <img
-        className="rounded-full w-10"
+        className="rounded-full w-10 h-10"
         src={user.picture} alt={user.name} />
         {/* <h2>{user.name}</h2> */}
         {/* <p>{user.email}</p> */}

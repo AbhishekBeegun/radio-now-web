@@ -3,11 +3,11 @@ import {IoStop} from "react-icons/io5"
 import {IoMdPlay} from "react-icons/io"
 import {CgMediaLive} from "react-icons/cg"
 
-const StopBtnRadio = ({IsAudioPlaying,setAudioPlaying}) => {
+const StopBtnRadio = ({IsAudioPlaying,setIsAudioPlaying,setAudioUrl}) => {
 
 
     const handlePlay= () => { 
-      setAudioPlaying(!IsAudioPlaying)
+      setIsAudioPlaying(!IsAudioPlaying)
   
   }
 
@@ -25,13 +25,13 @@ const StopBtnRadio = ({IsAudioPlaying,setAudioPlaying}) => {
     {IsAudioPlaying ? 
     <button
     onClick={() => {handlePlay(),handlePausefunc()}}
-    className="text-xl text-red-500">
+    className="text-lg text-red-500">
         <IoStop/>
     </button>
     :
     <button
     onClick={() => {handlePlay(),handlePlayfunc()}}
-    className="text-2xl">
+    className="text-xl">
         <IoMdPlay/>
     </button>
     }

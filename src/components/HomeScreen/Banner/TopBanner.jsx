@@ -16,7 +16,9 @@ const TopBanner = () => {
     
     <img
     className="w-[250px] h-[250px] object-cover"
-    src={"https://o.remove.bg/downloads/fb86d3f4-2194-4eab-b7af-a260138f2658/png-transparent-nrj-hits-internet-radio-television-nrj-music-award-radio-television-electronics-text-removebg-preview.png"} />
+    src={"https://o.remove.bg/downloads/fb86d3f4-2194-4eab-b7af-a260138f2658/png-transparent-nrj-hits-internet-radio-television-nrj-music-award-radio-television-electronics-text-removebg-preview.png"} 
+    alt="Banner"
+    />
     </div>
   )
 }

@@ -1,0 +1,16 @@
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-MEDIA-SEQUENCE:40801
+#EXT-X-TARGETDURATION:5
+#EXTINF:5.000,
+radiomaurice-40801.ts
+#EXTINF:5.000,
+radiomaurice-40802.ts
+#EXTINF:5.000,
+radiomaurice-40803.ts
+#EXTINF:5.000,
+radiomaurice-40804.ts
+#EXTINF:5.000,
+radiomaurice-40805.ts
+#EXTINF:5.000,
+radiomaurice-40806.ts
