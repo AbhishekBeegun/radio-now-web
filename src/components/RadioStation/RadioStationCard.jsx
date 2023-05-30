@@ -29,7 +29,7 @@ const RadioStationCard = ({
       />
 
       <div className="px-4 py-2 h-1/4">
-        <p className="font-semibold text-sm">{item.title}</p>
+        <p className="font-semibold text-sm text-white">{item.title}</p>
       </div>
     </div>
   )

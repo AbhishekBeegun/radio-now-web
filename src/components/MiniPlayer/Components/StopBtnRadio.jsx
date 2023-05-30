@@ -31,7 +31,7 @@ const StopBtnRadio = ({IsAudioPlaying,setIsAudioPlaying,setAudioUrl}) => {
     :
     <button
     onClick={() => {handlePlay(),handlePlayfunc()}}
-    className="text-xl">
+    className="text-xl text-white">
         <IoMdPlay/>
     </button>
     }
