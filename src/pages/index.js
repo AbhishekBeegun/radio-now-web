@@ -26,7 +26,7 @@ const inter = Inter({ subsets: ['latin'] })
   const [IsAudioPlaying , setIsAudioPlaying] = useState(false)
   
   return (
-   <main className="flex flex-col items-center pb-10 bg-[#232427] ">
+   <main className="flex flex-col items-center pb-10 lg:pb-20 bg-[#232427] ">
 
     <Head>
       <title>Radio Now - Beta</title>

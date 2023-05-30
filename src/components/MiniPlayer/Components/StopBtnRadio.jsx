@@ -40,8 +40,7 @@ const StopBtnRadio = ({IsAudioPlaying,setIsAudioPlaying,setAudioUrl}) => {
         <p className="text-xs animate-pulse text-red-500">
         <CgMediaLive/>
         </p>
-        <p className="text-xs">
-        Live</p>
+        <p className="text-[8px] text-white">Live</p>
         </div>
     </div>
   )

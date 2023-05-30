@@ -11,7 +11,7 @@ const Station = ({
   return (
     <div className="flex flex-wrap items-center justify-center gap-5 lg:gap-10 py-8 px-4 lg:px-52">
     {post && post.map( item => (
-      <div key={item.slug}>
+      <div key={item.title}>
       <RadioStationCard
       item={item}
       setLoading={setLoading}
